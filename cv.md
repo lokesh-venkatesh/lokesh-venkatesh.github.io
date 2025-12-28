@@ -4,32 +4,25 @@ title: CV
 permalink: /cv/
 ---
 
-## Curriculum Vitae
-
-You can download my full CV below:
+You may download my full Curriculum Vitae using the below link:
 
 [Download CV (PDF)]({{ site.baseurl }}/files/cv.pdf)
 
 ---
 
-### Education
-
-**BS-MS in Science** (Ongoing)
-- Indian Institute of Scientific Education & Research (IISER), Pune
-- Expected completion: 2026
-
----
-
-### Research Interests
-
-- Computational neuroscience
-- Complex biological systems
-- Computational biology
-- Network dynamics and modeling
-
----
-
 ### Contact
 
-For more information about my work and experience, please visit the [About]({{ "/about" | relative_url }}) page or reach out via the social links provided.
+If you'd like to chat or discuss anything about my academic or non-academic interests, feel free to reach out on any one of the handles listed below. 
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/venkatesh-lokesh">🔗</a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/lokesh_v04">🐦</a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/lokesh-venkatesh">🐙</a>
+</p>
+
+
+---
+
+Last updated: December 2025

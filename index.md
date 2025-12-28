@@ -7,48 +7,17 @@ Welcome to my personal academic website. I'm a researcher interested in complex 
 
 Feel free to explore the [About]({{ "/about" | relative_url }}) page to learn more about me and my work.
 
+If you wish to chat with me about just about anything, you can reach me through the social links provided below or via my institute email.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/venkatesh-lokesh">🔗</a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/lokesh_v04">🐦</a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/lokesh-venkatesh">🐙</a>
+</p>
+
+
 ---
 
-<div class="social-links-home">
-  {%- if site.minima.social_links -%}
-  <ul class="social-media-list-home">
-    {%- for social in site.minima.social_links -%}
-      {%- assign key = social[0] -%}
-      {%- assign url = social[1] -%}
-      {%- if key == 'github' -%}
-        <li>
-          <a href="{{ url }}" title="GitHub" class="icon-github">
-            <svg class="svg-icon">
-              <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-            </svg>
-          </a>
-        </li>
-      {%- elsif key == 'twitter' -%}
-        <li>
-          <a href="{{ url }}" title="Twitter" class="icon-twitter">
-            <svg class="svg-icon">
-              <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-            </svg>
-          </a>
-        </li>
-      {%- elsif key == 'linkedin' -%}
-        <li>
-          <a href="{{ url }}" title="LinkedIn" class="icon-linkedin">
-            <svg class="svg-icon">
-              <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
-            </svg>
-          </a>
-        </li>
-      {%- elsif key == 'email' -%}
-        <li>
-          <a href="{{ url }}" title="Email" class="icon-email">
-            <svg class="svg-icon">
-              <use xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"></use>
-            </svg>
-          </a>
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
-</div>
+Last updated: December 2025
