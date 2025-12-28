@@ -1,0 +1,62 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Social icons styling */
+.social-media-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.social-media-list li {
+  display: inline;
+}
+
+.social-media-list a {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.social-media-list .svg-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: middle;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.social-media-list a:hover .svg-icon {
+  transform: scale(1.2);
+  fill: #2a7ae2;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  display: inline;
+}
+
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #11a;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  color: #2a7ae2;
+}
+
+.contact-list .svg-icon {
+  width: 20px;
+  height: 20px;
+}

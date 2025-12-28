@@ -1,0 +1,74 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {%- if site.email -%}
+              <a href="mailto:{{ site.email }}">
+                <svg class="svg-icon">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"></use>
+                </svg>
+                <span>Email</span>
+              </a>
+            {%- endif -%}
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- if site.minima.social_links -%}
+        <ul class="social-media-list">
+          {%- for social in site.minima.social_links -%}
+            {%- assign key = social[0] -%}
+            {%- assign url = social[1] -%}
+            {%- if key == 'email' -%}
+              <li>
+                <a href="{{ url }}">
+                  <svg class="svg-icon">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"></use>
+                  </svg>
+                </a>
+              </li>
+            {%- elsif key == 'github' -%}
+              <li>
+                <a href="{{ url }}" title="GitHub">
+                  <svg class="svg-icon">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+                  </svg>
+                </a>
+              </li>
+            {%- elsif key == 'linkedin' -%}
+              <li>
+                <a href="{{ url }}" title="LinkedIn">
+                  <svg class="svg-icon">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+                  </svg>
+                </a>
+              </li>
+            {%- elsif key == 'twitter' -%}
+              <li>
+                <a href="{{ url }}" title="Twitter">
+                  <svg class="svg-icon">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+                  </svg>
+                </a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+        {%- endif -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
