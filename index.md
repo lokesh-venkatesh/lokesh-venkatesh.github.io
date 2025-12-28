@@ -25,7 +25,9 @@ If you wish to chat with me about just about anything, you can reach me through 
   </a>
 </p>
 
+\\
 
 ---
+
 
 Last updated: December 2025

@@ -10,8 +10,6 @@ My research interests are broadly centered around the **complexity and emergent 
 
 More specifically, I am interested in frameworks used to model complex phenomena in **neuronal networks and circuits** as well as how these analytical tools can be extended to model **social dynamics for policy-making**. I am actively seeking research opportunities and avenues for learning and collaboration along these broad themes.
 
-![Lokesh Venkatesh](Lokesh_PFP.jpg)
-
 ---
 
 ## Background
@@ -34,11 +32,6 @@ As of Fall 2025, my interests are still centered around modelling biological, ne
 
 I am presently seeking MS dissertation projects (as well as platforms that can help improve on my knowledge of the toolbox used for modelling complex systems in general) on how these broad frameworks can be used to bridge theory, data and computation to analyse complex biological and social dynamics.
 
-\\
-\\
-
 ---
-
-\\
 
 Last updated: December 2025
