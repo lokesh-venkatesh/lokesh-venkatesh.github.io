@@ -3,60 +3,81 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-/* Social icons styling */
+/* Social links footer styling */
+.social-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 2rem;
+}
+
 .social-media-list {
   display: flex;
-  gap: 1rem;
+  justify-content: space-around;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
+  width: 100%;
+  max-width: 400px;
 }
 
 .social-media-list li {
-  display: inline;
-}
-
-.social-media-list a {
-  display: inline-block;
-  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media-list .svg-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  fill: currentColor;
+  width: 32px;
+  height: 32px;
+  display: block;
   vertical-align: middle;
   transition: transform 0.3s ease, fill 0.3s ease;
 }
 
-.social-media-list a:hover .svg-icon {
-  transform: scale(1.2);
-  fill: #2a7ae2;
-}
-
-.contact-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.contact-list li {
-  display: inline;
-}
-
-.contact-list a {
-  display: inline-flex;
+.social-media-list a {
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  color: #11a;
+  justify-content: center;
+  padding: 0.5rem;
   text-decoration: none;
 }
 
-.contact-list a:hover {
-  color: #2a7ae2;
+/* Individual icon colors */
+.icon-github .svg-icon {
+  fill: #333;
 }
 
-.contact-list .svg-icon {
-  width: 20px;
-  height: 20px;
+.icon-github:hover .svg-icon {
+  fill: #0969da;
+  transform: scale(1.15);
+}
+
+.icon-twitter .svg-icon {
+  fill: #1da1f2;
+}
+
+.icon-twitter:hover .svg-icon {
+  fill: #1a8cd8;
+  transform: scale(1.15);
+}
+
+.icon-linkedin .svg-icon {
+  fill: #0a66c2;
+}
+
+.icon-linkedin:hover .svg-icon {
+  fill: #084594;
+  transform: scale(1.15);
+}
+
+.icon-email .svg-icon {
+  fill: #e74c3c;
+}
+
+.icon-email:hover .svg-icon {
+  fill: #c0392b;
+  transform: scale(1.15);
 }
