@@ -3,12 +3,11 @@ layout: home
 permalink: /
 ---
 
-Welcome to my personal academic website. I'm a researcher interested in complex systems, computational neuroscience, and computational biology.
+Welcome to my personal website. I am an undergraduate student at IISER Pune, India, with interests in complex biological systems and computational neuroscience, and in machine learning and social networks on the side. I largely love picking up new theoretical and computational tools and applying them to real world problems. 
 
-Feel free to explore the [About]({{ "/about" | relative_url }}) page to learn more about me and my work.
+Feel free to explore the [About]({{ "/about" | relative_url }}) page to learn more about my background and current academic interests. The [CV]({{ "/cv" | relative_url }}) page contains a copy of my CV for more details.
 
-If you wish to chat with me about just about anything, you can reach me through the social links provided below or via my institute email.
-
+This website, as well as my github repositories' page are both still under construction, as I plan on compiling all of my prior and present academic work over the next few months of 2026. In the meantime, if you wish to chat with me about just about anything, you can reach me through the social links provided below or via my institute email.
 
 
 <p align="center">
@@ -25,9 +24,6 @@ If you wish to chat with me about just about anything, you can reach me through 
   </a>
 </p>
 
-\\
-
 ---
-
 
 Last updated: December 2025

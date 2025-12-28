@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Motivation
 
-My research interests are broadly centered around the **complexity and emergent behaviours in biological and social systems** and **the commonality of frameworks used to explain such phenomena across scales**. I am primarily interested in theoretical and computational approaches to such problems. I have prior research experience with tools commonly used in projects in domains surrounding computational biology. 
+My research interests are broadly centered around explaining emergent phenomena in complex biological and social systems and the commonality of frameworks used to explain such phenomena across scales, using both theoretical and computational approaches. My prior research experiences were largely in subdomains of computational biology. 
 
-More specifically, I am interested in frameworks used to model complex phenomena in **neuronal networks and circuits** as well as how these analytical tools can be extended to model **social dynamics for policy-making**. I am actively seeking research opportunities and avenues for learning and collaboration along these broad themes.
+More specifically, I am interested in frameworks used to model complex phenomena in biological neural  networks and circuits as well as how these analytical tools can be extended to come up with better models of the brain, as well as provide insights into building better artificial neural networks. I am actively seeking research opportunities and avenues along these broad themes.
 
 ---
 
