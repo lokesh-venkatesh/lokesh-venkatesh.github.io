@@ -3,55 +3,50 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-/* Social links footer styling */
-.site-footer {
-  padding: 2rem 0;
-  border-top: 1px solid #e8e8e8;
+/* Home page social links styling */
+.social-links-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e8e8e8;
 }
 
-.social-links-container {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center !important;
-  align-items: center !important;
-  width: 100%;
-}
-
-.social-media-list {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center !important;
-  align-items: center !important;
-  list-style: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+.social-media-list-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   gap: 2rem;
   flex-wrap: nowrap;
 }
 
-.social-media-list li {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  margin: 0 !important;
+.social-media-list-home li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
-.social-media-list a {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding: 0.5rem !important;
-  text-decoration: none !important;
-  line-height: 1 !important;
+.social-media-list-home a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  line-height: 1;
 }
 
-.social-media-list .svg-icon {
-  width: 32px !important;
-  height: 32px !important;
-  display: block !important;
-  vertical-align: middle !important;
-  transition: transform 0.3s ease, fill 0.3s ease !important;
+.social-media-list-home .svg-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  vertical-align: middle;
+  transition: transform 0.3s ease, fill 0.3s ease;
 }
 
 /* Individual icon colors */
@@ -89,4 +84,23 @@
 .icon-email:hover .svg-icon {
   fill: #c0392b;
   transform: scale(1.15);
+}
+
+/* Footer styling */
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer-name {
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.footer-email {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
 }
