@@ -1,3 +1,26 @@
-_site/
-_draft/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jekyll / Ruby
+.bundle/
 .jekyll-cache/
+.jekyll-metadata
+_site/
+Gemfile.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.local
