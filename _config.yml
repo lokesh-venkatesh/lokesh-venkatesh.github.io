@@ -1,8 +1,8 @@
-site: Lokesh Venkatesh's Personal Site
-title: Lokesh Venkatesh's Personal Title
+site: Lokesh Venkatesh
+title: Lokesh Venkatesh
 email: lokesh.venkatesh@students.iiserpune.ac.in
 description: >-
-  Lokesh's website
+  Personal website
 
 baseurl: ""
 url: "https://lokesh-venkatesh.github.io"
