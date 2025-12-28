@@ -17,11 +17,17 @@ My research interests broadly surround the theory and modelling of complex syste
 You can reach me through the social links provided below or via email.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/venkatesh-lokesh">🔗</a>
-  &nbsp;&nbsp;
-  <a href="https://x.com/lokesh_v04">🐦</a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/lokesh-venkatesh">🐙</a>
+  <a href="https://www.linkedin.com/in/venkatesh-lokesh" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" width="28" height="28"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/lokesh-venkatesh" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" width="28" height="28"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://x.com/lokesh_v04" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/twitter.svg" alt="Twitter" width="28" height="28"/>
+  </a>
 </p>
 
 
