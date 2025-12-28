@@ -4,45 +4,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 /* Social links footer styling */
-.social-links-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.site-footer {
   padding: 2rem 0;
   border-top: 1px solid #e8e8e8;
   margin-top: 2rem;
 }
 
-.social-media-list {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.social-links-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
   width: 100%;
-  max-width: 400px;
+}
+
+.social-media-list {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 2rem;
+  flex-wrap: nowrap;
 }
 
 .social-media-list li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-media-list .svg-icon {
-  width: 32px;
-  height: 32px;
-  display: block;
-  vertical-align: middle;
-  transition: transform 0.3s ease, fill 0.3s ease;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 !important;
 }
 
 .social-media-list a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  text-decoration: none;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+}
+
+.social-media-list .svg-icon {
+  width: 32px !important;
+  height: 32px !important;
+  display: block !important;
+  vertical-align: middle !important;
+  transition: transform 0.3s ease, fill 0.3s ease !important;
 }
 
 /* Individual icon colors */
